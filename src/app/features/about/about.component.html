@@ -1,0 +1,83 @@
+<section id="about" class="container mx-auto text-white my-12">
+    <div class="flex flex-col xl:flex-row justify-between items-center gap-12 xl:mx-15 mx-6">
+        <!-- left side -->
+        <div class="flex justify-center items-start flex-col gap-4">
+            <h3 class="text-xl main-linear font-bold">
+                {{"about.title" | translate}}</h3>
+            <p class="text-4xl font-extrabold">{{"about.heading1" | translate}} <br>
+                {{"about.heading2" | translate}}
+                <span class="main-linear bg-clip-text text-transparent">
+                    {{"about.heading3" | translate}}
+                </span>
+            </p>
+            <p class="text-gray-200 text-xl">{{"about.description" | translate}}</p>
+
+            <div class="p-0.5 main-linear flex rounded-xl">
+                <div class="hidden bg-transparent border border-purple-300 py-3 px-5 rounded-xl">
+                    <a href="" class="text-white/85 font-medium">
+                        <i class="fa-solid fa-user text-fuchsia-400"></i>
+                        {{"about.moreAbout" | translate}}
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- right side -->
+        <div class="flex justify-center items-center border border-gray-700 bg-gray-800/20 py-2 px-5 rounded-2xl">
+            <div class="flex justify-start flex-col items-start my-6 gap-3">
+
+                <!-- name -->
+                <div class="flex justify-center items-center gap-3">
+                    <div class="flex justify-center items-center text-2xl main-linear bg-clip-text text-transparent">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div>
+                        <span class="block"><span class="block">{{"about.name" | translate}}:</span></span>
+                        <h3 class="font-extrabold text-2xl">{{"about.fullName" | translate}}</h3>
+                    </div>
+                </div>
+
+                <!-- email -->
+                <div class="flex justify-center items-center gap-3">
+                    <div class="flex justify-center items-center text-2xl main-linear bg-clip-text text-transparent">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <span class="block">{{"about.email" | translate}}:</span>
+                        <h3 class="font-extrabold">eslambadr0110@gmail.com</h3>
+                    </div>
+                </div>
+
+                <!-- location -->
+                <div class="flex justify-center items-center gap-3">
+                    <div class="flex justify-center items-center text-2xl main-linear bg-clip-text text-transparent">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        <span class="block">{{"about.location" | translate}}:</span>
+                        <h3 class="font-extrabold">{{"about.city" | translate}}</h3>
+                    </div>
+                </div>
+
+                <!-- availability -->
+                <div class="flex justify-center items-center gap-3">
+                    <div class="flex justify-center items-center text-2xl main-linear bg-clip-text text-transparent">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <div>
+                        <span class="block">{{"about.availability" | translate}}:</span>
+                        <h3 class="font-extrabold text-green-400">
+                            {{"about.status" | translate}}
+                        </h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="w-full size-100 md:size-60">
+                <img src="/img/skills.png" class="object-contain w-full h-full" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>

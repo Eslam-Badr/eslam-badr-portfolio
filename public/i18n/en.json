@@ -1,0 +1,98 @@
+{
+  "navbar": {
+    "language": "Language",
+    "english": "English (US)",
+    "arabic": "Arabic (EGY)",
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact me",
+    "openMenu": "Open main menu"
+  },
+
+  "home": {
+    "fName": "Eslam",
+    "lName": "Badr",
+    "greeting": "Hi, I'm",
+    "jobTitle": "Frontend Developer",
+    "description": "I build responsive, scalable web applications using Angular, TypeScript, RxJS, REST APIs, Bootstrap and Tailwind CSS. I enjoy creating clean user interfaces, improving application performance, and working with reactive programming patterns.",
+    "downloadCv": "Download My CV",
+    "experience": "Years of experience"
+  },
+
+  "about": {
+    "title": "About Me",
+    "heading1": "Crafting digital experiences",
+    "heading2": "that make an",
+    "heading3": "impact.",
+
+    "description": "I'm a passionate Frontend Developer who loves turning ideas into real-world web applications. I focus on writing clean, scalable code and building beautiful interfaces that users love.",
+
+    "moreAbout": "More About Me",
+
+    "name": "Name",
+    "email": "Email",
+    "location": "Location",
+    "availability": "Availability",
+
+    "fullName": "Eslam Badr",
+    "city": "Cairo, Egypt",
+    "status": "Freelance / Full-time"
+  },
+
+  "skills": {
+    "title": "My Skills",
+    "heading1": "Technologies I",
+    "heading2": "work with"
+  },
+
+  "projects": {
+    "title": "My Projects",
+    "heading1": "Projects",
+    "heading2": "I've built",
+    "viewAll": "View all projects",
+    "readMore": "Read More",
+    "showLess": "Show Less",
+    "liveDemo": "Live Demo",
+
+    "ecommerce": {
+      "title": "E-Commerce Website",
+      "description": "Fresh Cart is a modern e-commerce web application built to deliver a smooth and responsive online shopping experience. The platform allows users to browse products, explore categories, manage their shopping cart, and complete purchases through an intuitive interface. The project focuses on performance, responsive design, state management, and clean user experience while showcasing modern frontend development practices."
+    },
+
+    "social": {
+      "title": "Social App",
+      "description": "Social App is a frontend social media application built to replicate core social networking functionalities. It includes user authentication, profile handling, post publishing, content interaction, API integration, and responsive layouts. The project highlights skills in component-based architecture, state management, routing, and scalable frontend development."
+    },
+
+    "contact": {
+      "title": "Contact Hub",
+      "description": "Contact Hub is a responsive contact management application that allows users to organize and manage contacts through a clean, modern interface. Built to showcase frontend development skills including responsive design, component-based architecture, interactive forms, and user-focused UI development."
+    }
+  },
+
+  "contact": {
+    "title": "Contact Me",
+    "heading1": "Let's work",
+    "heading2": "together!",
+    "description": "I'm currently available for freelance or full-time opportunities.",
+    "number": "+20 115 926 6994",
+    "location": "Cairo, Egypt.",
+
+    "emailLabel": "Email address:",
+
+    "messageLabel": "Your message:",
+    "messagePlaceholder": "Write your thoughts here...",
+"note": "NOTE: This message will change when the inputs is right...",
+    "validation1": "- Write your email correctly, example: (john.doe@company.com)",
+    "validation2": "- Write your message, at least 100 characters",
+    "correctValidation": "Your inputs is correct",
+
+    "sendButton": "Send message",
+
+    "error": "Your email or message is not correct",
+
+    "success": "Your message has been sent"
+  }
+}

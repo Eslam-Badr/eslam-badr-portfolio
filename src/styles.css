@@ -1,3 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
-
 @import 'tailwindcss';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(0, 0, 16, 0.878)
+}
+
+
+.main-linear {
+    @apply bg-linear-to-tr from-fuchsia-500 to-cyan-400 bg-clip-text text-transparent
+}
+
+.card-animate {
+    @apply group-hover:scale-110 group-hover:animate-[spin_1s_infinite_ease-in-out]
+}
