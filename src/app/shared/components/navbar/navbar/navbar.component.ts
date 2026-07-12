@@ -1,9 +1,9 @@
 import { initFlowbite } from 'flowbite';
 import { FlowbiteService } from './../../../../core/services/flowbite/flowbite.service';
-import { Component, ElementRef, HostListener, inject, QueryList, ViewChildren } from '@angular/core';
-import { translate, TranslatePipe, TranslateService } from '@ngx-translate/core';
+import { Component, inject } from '@angular/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 import { MyTranslateServiceService } from '../../../../core/services/my-translate-service.service';
-import { RouterLinkActive, RouterLinkWithHref } from "@angular/router";
+import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'app-navbar',
@@ -15,10 +15,10 @@ export class NavbarComponent {
 
   private readonly translateService = inject(TranslateService)
   private readonly myTranslateService = inject(MyTranslateServiceService)
+  private readonly spinner = inject(NgxSpinnerService)
 
   constructor() {
     this.translateService.fallbackLang()
-
   }
 
   private readonly flowbite = inject(FlowbiteService)
@@ -30,8 +30,12 @@ export class NavbarComponent {
 
 
   changelang(lang: string) {
-    this.myTranslateService.changeLang(lang)
-    document.getElementById('dropdownDivider')?.classList.add('hidden');
+    this.spinner.show()
+
+    setTimeout(() => {
+      this.spinner.hide()
+      this.myTranslateService.changeLang(lang)
+    }, 1000);
   }
 
 }
