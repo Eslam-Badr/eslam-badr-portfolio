@@ -1,12 +1,15 @@
-<section id="contact" class="container mx-auto text-white px-8 md:px-14 my-16">
+<section id="contact" class="scroll-mt-24 container mx-auto text-white my-16">
 
-    <div class="flex flex-col lg:flex-row justify-between items-start relative gap-12">
+    <div class="flex flex-col lg:flex-row justify-between items-start relative gap-12 px-10 md:px-16 ">
 
         <div class="flex flex-col gap-6 w-full lg:w-1/2">
             <div class="flex flex-col gap-5">
-                <h3 class="text-xl main-linear font-bold">
-                    {{"contact.title" | translate}}
-                </h3>
+                <div class="flex justify-start items-center gap-x-4">
+                    <h3 class="main-title text-xl main-linear font-bold inline-block">
+                        {{"contact.title" | translate}}
+                    </h3>
+                    <div class="main-title-line"></div>
+                </div>
 
                 <h4 class="text-3xl xl:text-4xl font-extrabold">
                     {{"contact.heading1" | translate}} <span class="main-linear">{{"contact.heading2" |
@@ -44,7 +47,7 @@
 
                 <div>
                     <label for="message" class="block mb-2.5 text-sm font-medium ">{{"contact.messageLabel" |
-                        translate}}:</label>
+                        translate}}</label>
                     <textarea #messageInput (input)="checkForm(emailInput.value, messageInput.value)" id="message"
                         name="message" rows="4"
                         class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body outline-none transition-colors resize-none"

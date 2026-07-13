@@ -15,7 +15,7 @@
     "fName": "Eslam",
     "lName": "Badr",
     "greeting": "Hi, I'm",
-    "jobTitle": "Frontend Developer",
+    "jobTitle": "Front-end Developer",
     "description": "I build responsive, scalable web applications using Angular, TypeScript, RxJS, REST APIs, Bootstrap and Tailwind CSS. I enjoy creating clean user interfaces, improving application performance, and working with reactive programming patterns.",
     "downloadCv": "Download My CV",
     "experience": "Years of experience"
@@ -84,9 +84,9 @@
 
     "messageLabel": "Your message:",
     "messagePlaceholder": "Write your thoughts here...",
-"note": "NOTE: This message will change when the inputs is right...",
+    "note": "NOTE: This message will change when the inputs is right...",
     "validation1": "- Write your email correctly, example: (john.doe@company.com)",
-    "validation2": "- Write your message, at least 100 characters",
+    "validation2": "- Write your message, at least 20 characters",
     "correctValidation": "Your inputs is correct",
 
     "sendButton": "Send message",

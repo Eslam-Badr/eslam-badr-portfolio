@@ -25,7 +25,7 @@ export class ContactMeComponent {
 
     this.isFormValid.set(
       emailRegex.test(email.trim()) &&
-      message.trim().length > 100);
+      message.trim().length > 20);
 
     if (this.isFormValid()) {
       this.showError.set(false)

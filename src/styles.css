@@ -21,3 +21,7 @@ body {
 .card-animate {
     @apply group-hover:scale-110 group-hover:animate-[spin_1s_infinite_ease-in-out]
 }
+
+.main-title-line{
+    @apply w-20 md:w-30 lg:w-40 xl:w-50 h-1 mt-2 bg-linear-to-l from-transparent rtl:from-purple-500 to-purple-500 rtl:to-transparent rounded-full
+}

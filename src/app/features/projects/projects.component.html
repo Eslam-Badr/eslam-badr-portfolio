@@ -1,12 +1,19 @@
-<section id="projects" class="container mx-auto text-white my-12 px-14">
+<section id="projects" class="scroll-mt-24 container mx-auto text-white my-12 px-5 lg:px-14">
 
     <!-- Header -->
-    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6 ">
 
         <div class="flex flex-col gap-5">
-            <h3 class="text-xl main-linear font-bold">
-                {{"projects.title" | translate}}
-            </h3>
+            <div class="flex justify-start items-center gap-x-4">
+
+                <h3 class="main-title text-xl main-linear font-bold">
+                    {{"projects.title" | translate}}
+                </h3>
+                <div
+                class="main-title-line">
+            </div>
+        </div>
+
 
             <p class="text-3xl md:text-4xl xl:text-5xl font-extrabold leading-tight">
                 {{"projects.heading1" | translate}}
@@ -92,8 +99,7 @@
                     {{"projects.social.title" | translate}}
                 </h4>
 
-                <p class="text-gray-400 text-sm sm:text-base leading-relaxed"
-                    [class.line-clamp-5]="!expanded.social">
+                <p class="text-gray-400 text-sm sm:text-base leading-relaxed" [class.line-clamp-5]="!expanded.social">
                     {{"projects.social.description" | translate}}
                 </p>
 
@@ -139,8 +145,7 @@
                     {{"projects.contact.title" | translate}}
                 </h4>
 
-                <p class="text-gray-400 text-sm sm:text-base leading-relaxed"
-                    [class.line-clamp-5]="!expanded.contact">
+                <p class="text-gray-400 text-sm sm:text-base leading-relaxed" [class.line-clamp-5]="!expanded.contact">
                     {{"projects.contact.description" | translate}}
                 </p>
 

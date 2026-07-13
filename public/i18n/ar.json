@@ -18,7 +18,7 @@
     "jobTitle": "مطور واجهات أمامية",
     "description": "أقوم ببناء تطبيقات ويب متجاوبة وقابلة للتوسع باستخدام Angular، TypeScript وRxJS وREST APIs وBootstrap وTailwind CSS. أستمتع بإنشاء واجهات مستخدم نظيفة، وتحسين أداء التطبيقات، والعمل باستخدام أنماط البرمجة التفاعلية.",
     "downloadCv": "تحميل السيرة الذاتية",
-    "experience": "سنة خبرة"
+    "experience": "من الخبرة"
   },
 
   "about": {
@@ -86,7 +86,7 @@
     "messagePlaceholder": "اكتب رسالتك هنا...",
 "note": "ملاحظة: هذه الرسالة ستختفي عند مطابقة الشروط ...",
     "validation1": "- اكتب بريدًا إلكترونيًا صحيحًا، مثال: (john.doe@company.com)",
-    "validation2": "- اكتب رسالة لا تقل عن 100 حرف",
+    "validation2": "- اكتب رسالة لا تقل عن 20 حرف",
     "correctValidation": "بياناتك صحيحة",
 
     "sendButton": "إرسال الرسالة",

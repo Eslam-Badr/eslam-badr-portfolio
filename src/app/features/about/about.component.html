@@ -1,11 +1,17 @@
-<section id="about" class="container mx-auto text-white my-15 px-4">
-    <div class="flex flex-col lg:flex-row gap-10 justify-center items-center">
+<section id="about" class="scroll-mt-24 container mx-auto text-white my-18 px-4">
+    <div class="flex flex-col lg:flex-row gap-10 justify-between items-center px-5 lg:px-12">
 
         <!-- Left Side -->
         <div class="flex flex-col items-start gap-4 w-full max-w-2xl">
-            <h3 class="text-xl font-bold main-linear">
-                {{"about.title" | translate}}
-            </h3>
+            <div class="flex justify-start items-center gap-x-4">
+                <h3 class="main-title text-xl font-bold main-linear">
+                    {{"about.title" | translate}}
+                </h3>
+                <div
+                    class="main-title-line">
+                </div>
+            </div>
+
 
             <p class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
                 {{"about.heading1" | translate}} <br>
@@ -31,7 +37,7 @@
 
         <!-- Right Side -->
         <div
-            class="w-full max-w-md flex justify-between items-center border border-gray-700 bg-gray-800/20 py-4 px-5 rounded-2xl">
+            class="w-full flex justify-between items-center border border-gray-700 bg-gray-800/20 py-4 px-5 rounded-2xl">
 
             <div class="flex flex-col items-start gap-5">
 
@@ -59,7 +65,7 @@
                         <span class="block">
                             {{"about.email" | translate}}:
                         </span>
-                        <h3 class="font-extrabold text-sm sm:text-base break-all">
+                        <h3 class="font-extrabold text-sm sm:text-base">
                             eslambadr0110@gmail.com
                         </h3>
                     </div>
@@ -99,10 +105,7 @@
 
             <!-- Image -->
             <div class="hidden md:flex w-48 h-48 lg:w-60 lg:h-60">
-                <img
-                    src="/img/skills.png"
-                    class="object-contain w-full h-full"
-                    alt="Skills Illustration">
+                <img src="/img/skills.png" class="object-contain w-full h-full" alt="Skills Illustration">
             </div>
 
         </div>
