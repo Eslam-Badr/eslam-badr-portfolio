@@ -1,129 +1,132 @@
-<section id="skills" class="container mx-auto text-white my-12">
+<section id="skills" class="container mx-auto text-white my-15">
 
-    <div class="flex flex-col xl:flex-row justify-between items-center gap-12 xl:mx-15 mx-6">
+    <div class="flex flex-col lg:flex-row justify-between items-center px-6">
         <!-- left side -->
-        <div class="flex flex-col justify-around items-start gap-6">
+        <div class="flex flex-col justify-around items-start gap-6 px-8 w-full xl:max-w-xl">
+
             <div>
                 <h3 class="text-xl main-linear font-bold">
-                     {{"skills.title" | translate}}
+                    {{"skills.title" | translate}}
                 </h3>
 
-                <p class="text-3xl xl:text-4xl font-extrabold"> {{"skills.heading1" | translate}} <span class="main-linear"> {{"skills.heading2" | translate}}</span>
+                <p class="text-3xl md:text-4xl xl:text-5xl font-extrabold leading-tight">
+                    {{"skills.heading1" | translate}}
+                    <span class="main-linear">
+                        {{"skills.heading2" | translate}}
+                    </span>
                 </p>
             </div>
 
-
-            <!-- skills's icons and gauges -->
-            <div class="flex flex-col gap-5">
+            <!-- skills gauges -->
+            <div class="flex flex-col gap-5 w-full">
 
                 <!-- HTML -->
-                <div class="flex justify-between items-center gap-5">
-                    <div class="flex items-center gap-2 w-40">
+                <div class="flex items-center gap-3 w-full">
+                    <div class="flex items-center gap-2 min-w-25 sm:min-w-30">
                         <i class="fa-brands fa-html5 text-2xl text-orange-400"></i>
-                        <span class="text-xl font-bold">HTML</span>
+                        <span class="font-bold">HTML</span>
                     </div>
-                    <div class="relative bg-gray-300 rounded-2xl w-60 h-1.5">
+
+                    <div class="relative flex-1 bg-gray-300 rounded-2xl h-1.5">
                         <div
                             class="absolute top-0 left-0 h-full w-[95%] rounded-2xl bg-linear-to-tr from-purple-600 to-fuchsia-500">
                         </div>
                     </div>
-                    <span class="w-10 text-sm">95%</span>
+
+                    <span class="text-sm min-w-8.75">95%</span>
                 </div>
 
-                <!-- css -->
-                <div class="flex justify-between items-center gap-5">
-                    <div class="flex items-center gap-2 w-40">
+                <!-- CSS -->
+                <div class="flex items-center gap-3 w-full">
+                    <div class="flex items-center gap-2 min-w-25 sm:min-w-30">
                         <i class="fa-brands fa-css3 text-2xl text-blue-400"></i>
-                        <span class="text-xl font-bold">CSS3</span>
+                        <span class="font-bold">CSS3</span>
                     </div>
-                    <div class="relative bg-gray-300 rounded-2xl w-60 h-1.5">
+
+                    <div class="relative flex-1 bg-gray-300 rounded-2xl h-1.5">
                         <div
                             class="absolute top-0 left-0 h-full w-[90%] rounded-2xl bg-linear-to-tr from-purple-600 to-fuchsia-500">
                         </div>
                     </div>
-                    <span class="w-10 text-sm">90%</span>
+
+                    <span class="text-sm min-w-8.75">90%</span>
                 </div>
 
-                <!-- javascript -->
-                <div class="flex justify-between items-center gap-5">
-                    <div class="flex items-center gap-2 w-40">
+                <!-- JavaScript -->
+                <div class="flex items-center gap-3 w-full">
+                    <div class="flex items-center gap-2 min-w-25 sm:min-w-30">
                         <i class="fa-brands fa-js text-2xl text-amber-300"></i>
-                        <span class="text-xl font-bold">JavaScript</span>
+                        <span class="font-bold">JavaScript</span>
                     </div>
-                    <div class="relative bg-gray-300 rounded-2xl w-60 h-1.5">
+
+                    <div class="relative flex-1 bg-gray-300 rounded-2xl h-1.5">
                         <div
                             class="absolute top-0 left-0 h-full w-[85%] rounded-2xl bg-linear-to-tr from-purple-600 to-fuchsia-500">
                         </div>
                     </div>
-                    <span class="w-10 text-sm">85%</span>
+
+                    <span class="text-sm min-w-8.75">85%</span>
                 </div>
 
-                <!-- angular -->
-                <div class="flex justify-between items-center gap-5">
-                    <div class="flex items-center gap-2 w-40">
+                <!-- Angular -->
+                <div class="flex items-center gap-3 w-full">
+                    <div class="flex items-center gap-2 min-w-25 sm:min-w-30">
                         <i class="fa-brands fa-angular text-2xl text-red-400"></i>
-                        <span class="text-xl font-bold">Angular</span>
+                        <span class="font-bold">Angular</span>
                     </div>
-                    <div class="relative bg-gray-300 rounded-2xl w-60 h-1.5">
+
+                    <div class="relative flex-1 bg-gray-300 rounded-2xl h-1.5">
                         <div
                             class="absolute top-0 left-0 h-full w-[80%] rounded-2xl bg-linear-to-tr from-purple-600 to-fuchsia-500">
                         </div>
                     </div>
-                    <span class="w-10 text-sm">80%</span>
+
+                    <span class="text-sm min-w-8.75">80%</span>
                 </div>
 
-                <!-- tailwind -->
-                <div class="flex justify-between items-center gap-5">
-                    <div class="flex items-center gap-2 w-40">
+                <!-- Tailwind -->
+                <div class="flex items-center gap-3 w-full">
+                    <div class="flex items-center gap-2 min-w-25 sm:min-w-30">
                         <i class="fa-brands fa-tailwind-css text-2xl text-blue-500"></i>
-                        <span class="text-xl font-bold">Tailwind</span>
+                        <span class="font-bold">Tailwind</span>
                     </div>
-                    <div class="relative bg-gray-300 rounded-2xl w-60 h-1.5">
+
+                    <div class="relative flex-1 bg-gray-300 rounded-2xl h-1.5">
                         <div
                             class="absolute top-0 left-0 h-full w-[90%] rounded-2xl bg-linear-to-tr from-purple-600 to-fuchsia-500">
                         </div>
                     </div>
-                    <span class="w-10 text-sm">90%</span>
+
+                    <span class="text-sm min-w-8.75">90%</span>
                 </div>
 
             </div>
+
         </div>
 
-
         <!-- right side -->
-        <div class="grid grid-cols-4 gap-6 mt-20">
-
-            <!-- sass -->
-            <div class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
-                <div class="transition-all card-animate">
-                    <i class="fa-brands fa-sass text-amber-700 text-4xl"></i>
+        <div class="grid grid-cols-4 gap-6 mt-20"> <!-- sass -->
+            <div
+                class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
+                <div class="transition-all card-animate"> <i class="fa-brands fa-sass text-amber-700 text-4xl"></i>
                 </div>
-
                 <h4 class="font-bold">Sass</h4>
-            </div>
-
-            <!-- git -->
-            <div class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
-                <div class="transition-all card-animate">
-                    <i class="fa-brands fa-git-alt text-red-400 text-4xl"></i>
+            </div> <!-- git -->
+            <div
+                class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
+                <div class="transition-all card-animate"> <i class="fa-brands fa-git-alt text-red-400 text-4xl"></i>
                 </div>
-
                 <h4 class="font-bold">Git</h4>
-            </div>
-
-            <!-- gitithub -->
-            <div class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
-                <div class="transition-all card-animate">
-                    <i class="fa-brands fa-github text-4xl"></i>
-                </div>
-
+            </div> <!-- gitithub -->
+            <div
+                class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
+                <div class="transition-all card-animate"> <i class="fa-brands fa-github text-4xl"></i> </div>
                 <h4 class="font-bold">GitHub</h4>
-            </div>
-
-            <!-- figma -->
-            <div class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
-                <div class="relative transition-all card-animate">
-                    <i class="fa-brands fa-figma text-4xl bg-clip-text text-transparent"></i>
+            </div> <!-- figma -->
+            <div
+                class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
+                <div class="relative transition-all card-animate"> <i
+                        class="fa-brands fa-figma text-4xl bg-clip-text text-transparent"></i>
                     <div class="absolute top-0 right-0 grid grid-cols-2 -translate-x-2.75">
                         <div class="bg-orange-500 size-3 rounded-l-full"></div>
                         <div class="bg-orange-300 size-3 rounded-r-full"></div>
@@ -132,24 +135,18 @@
                         <div class="bg-green-400 size-3 rounded-b-full rounded-l-full"></div>
                     </div>
                 </div>
-
                 <h4 class="font-bold">Figma</h4>
-            </div>
-
-            <!-- vscodet -->
-            <div class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
-                <div class="transition-all card-animate">
-                    <img src="/icons/vscode.png" class="size-8" alt="">
-                </div>
-
+            </div> <!-- vscodet -->
+            <div
+                class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
+                <div class="transition-all card-animate"> <img src="/icons/vscode.png" class="size-8" alt=""> </div>
                 <h4 class="font-bold">VS Code</h4>
-            </div>
-
-            <!-- netlify -->
-            <div class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
-                <div class="size-10 transition-all card-animate">
-                    <svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" fill="#000000">
+            </div> <!-- netlify -->
+            <div
+                class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
+                <div class="size-10 transition-all card-animate"> <svg viewBox="0 0 256 256" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        preserveAspectRatio="xMidYMid" fill="#000000">
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                         <g id="SVGRepo_iconCarrier">
@@ -166,40 +163,31 @@
                                     fill="url(#radialGradient-1)" fill-rule="nonzero"> </path>
                             </g>
                         </g>
-                    </svg>
-                </div>
-
+                    </svg> </div>
                 <h4 class="font-bold">Netlify</h4>
-            </div>
-
-            <!-- vercel -->
-            <div class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
-                <div class="transition-all card-animate">
-                    <svg width="50px" height="50px" viewBox="-8.4 -8.4 40.80 40.80" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+            </div> <!-- vercel -->
+            <div
+                class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
+                <div class="transition-all card-animate"> <svg width="50px" height="50px"
+                        viewBox="-8.4 -8.4 40.80 40.80" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="SVGRepo_bgCarrier" stroke-width="0">
                             <rect x="-8.4" y="-8.4" width="40.80" height="40.80" rx="20.4" fill="#ffffffa8"
-                                strokewidth="0"></rect>
+                                strokewidth="0">
+                            </rect>
                         </g>
                         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                         <g id="SVGRepo_iconCarrier">
                             <path d="M12 1L24 22H0L12 1Z" fill="#000000"></path>
                         </g>
-                    </svg>
-                </div>
-
+                    </svg> </div>
                 <h4 class="font-bold">Vercel</h4>
-            </div>
-
-            <!-- npm -->
-            <div class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
-                <div class="transition-all card-animate">
-                    <i class="fa-brands fa-npm text-amber-700 text-5xl"></i>
+            </div> <!-- npm -->
+            <div
+                class="flex justify-center items-center flex-col gap-3 py-4 px-6 rounded-2xl bg-black/30 transition-all group hover:scale-125">
+                <div class="transition-all card-animate"> <i class="fa-brands fa-npm text-amber-700 text-5xl"></i>
                 </div>
-
                 <h4 class="font-bold">NPM</h4>
             </div>
-
         </div>
 
     </div>

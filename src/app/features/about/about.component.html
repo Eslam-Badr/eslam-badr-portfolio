@@ -1,16 +1,23 @@
-<section id="about" class="container mx-auto text-white my-12">
-    <div class="flex flex-col xl:flex-row justify-between items-center gap-12 xl:mx-15 mx-6">
-        <!-- left side -->
-        <div class="flex justify-center items-start flex-col gap-4">
-            <h3 class="text-xl main-linear font-bold">
-                {{"about.title" | translate}}</h3>
-            <p class="text-4xl font-extrabold">{{"about.heading1" | translate}} <br>
+<section id="about" class="container mx-auto text-white my-15 px-4">
+    <div class="flex flex-col lg:flex-row gap-10 justify-center items-center">
+
+        <!-- Left Side -->
+        <div class="flex flex-col items-start gap-4 w-full max-w-2xl">
+            <h3 class="text-xl font-bold main-linear">
+                {{"about.title" | translate}}
+            </h3>
+
+            <p class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
+                {{"about.heading1" | translate}} <br>
                 {{"about.heading2" | translate}}
                 <span class="main-linear bg-clip-text text-transparent">
                     {{"about.heading3" | translate}}
                 </span>
             </p>
-            <p class="text-gray-200 text-xl">{{"about.description" | translate}}</p>
+
+            <p class="text-base sm:text-lg lg:text-xl text-gray-200 leading-relaxed">
+                {{"about.description" | translate}}
+            </p>
 
             <div class="p-0.5 main-linear flex rounded-xl">
                 <div class="hidden bg-transparent border border-purple-300 py-3 px-5 rounded-xl">
@@ -22,50 +29,66 @@
             </div>
         </div>
 
-        <!-- right side -->
-        <div class="flex justify-center items-center border border-gray-700 bg-gray-800/20 py-2 px-5 rounded-2xl">
-            <div class="flex justify-start flex-col items-start my-6 gap-3">
+        <!-- Right Side -->
+        <div
+            class="w-full max-w-md flex justify-between items-center border border-gray-700 bg-gray-800/20 py-4 px-5 rounded-2xl">
 
-                <!-- name -->
-                <div class="flex justify-center items-center gap-3">
-                    <div class="flex justify-center items-center text-2xl main-linear bg-clip-text text-transparent">
+            <div class="flex flex-col items-start gap-5">
+
+                <!-- Name -->
+                <div class="flex items-start gap-3">
+                    <div class="text-2xl main-linear bg-clip-text text-transparent">
                         <i class="fa-solid fa-user"></i>
                     </div>
                     <div>
-                        <span class="block"><span class="block">{{"about.name" | translate}}:</span></span>
-                        <h3 class="font-extrabold text-2xl">{{"about.fullName" | translate}}</h3>
+                        <span class="block">
+                            {{"about.name" | translate}}:
+                        </span>
+                        <h3 class="font-extrabold text-xl sm:text-2xl">
+                            {{"about.fullName" | translate}}
+                        </h3>
                     </div>
                 </div>
 
-                <!-- email -->
-                <div class="flex justify-center items-center gap-3">
-                    <div class="flex justify-center items-center text-2xl main-linear bg-clip-text text-transparent">
+                <!-- Email -->
+                <div class="flex items-start gap-3">
+                    <div class="text-2xl main-linear bg-clip-text text-transparent">
                         <i class="fa-solid fa-envelope"></i>
                     </div>
                     <div>
-                        <span class="block">{{"about.email" | translate}}:</span>
-                        <h3 class="font-extrabold">eslambadr0110@gmail.com</h3>
+                        <span class="block">
+                            {{"about.email" | translate}}:
+                        </span>
+                        <h3 class="font-extrabold text-sm sm:text-base break-all">
+                            eslambadr0110@gmail.com
+                        </h3>
                     </div>
                 </div>
 
-                <!-- location -->
-                <div class="flex justify-center items-center gap-3">
-                    <div class="flex justify-center items-center text-2xl main-linear bg-clip-text text-transparent">
+                <!-- Location -->
+                <div class="flex items-start gap-3">
+                    <div class="text-2xl main-linear bg-clip-text text-transparent">
                         <i class="fa-solid fa-location-dot"></i>
                     </div>
                     <div>
-                        <span class="block">{{"about.location" | translate}}:</span>
-                        <h3 class="font-extrabold">{{"about.city" | translate}}</h3>
+                        <span class="block">
+                            {{"about.location" | translate}}:
+                        </span>
+                        <h3 class="font-extrabold">
+                            {{"about.city" | translate}}
+                        </h3>
                     </div>
                 </div>
 
-                <!-- availability -->
-                <div class="flex justify-center items-center gap-3">
-                    <div class="flex justify-center items-center text-2xl main-linear bg-clip-text text-transparent">
+                <!-- Availability -->
+                <div class="flex items-start gap-3">
+                    <div class="text-2xl main-linear bg-clip-text text-transparent">
                         <i class="fa-solid fa-clock"></i>
                     </div>
                     <div>
-                        <span class="block">{{"about.availability" | translate}}:</span>
+                        <span class="block">
+                            {{"about.availability" | translate}}:
+                        </span>
                         <h3 class="font-extrabold text-green-400">
                             {{"about.status" | translate}}
                         </h3>
@@ -74,10 +97,15 @@
 
             </div>
 
-            <div class="w-full size-100 md:size-60">
-                <img src="/img/skills.png" class="object-contain w-full h-full" alt="">
+            <!-- Image -->
+            <div class="hidden md:flex w-48 h-48 lg:w-60 lg:h-60">
+                <img
+                    src="/img/skills.png"
+                    class="object-contain w-full h-full"
+                    alt="Skills Illustration">
             </div>
-        </div>
-    </div>
 
+        </div>
+
+    </div>
 </section>
